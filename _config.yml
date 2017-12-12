@@ -1,1 +1,14 @@
-theme: jekyll-theme-architect
+title: I'm Not That Creative Blog
+email: eduardokmesiano@gmail.com
+description: >-
+  I'm Not That Creative is my test blog, to learn Jekyll.
+baseurl: "/blog"
+url: "https://dudukling.github.io/"
+github_username:  dudukling
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
