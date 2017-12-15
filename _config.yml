@@ -1,3 +1,4 @@
+lang: pt-br
 title: I'm Not That Creative Blog
 email: eduardokmesiano@gmail.com
 description: >-
@@ -11,4 +12,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+
+# Defaults:
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+      author: "Eduardo Kling Mesiano"
 
