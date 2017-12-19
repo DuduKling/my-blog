@@ -4,20 +4,36 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Últimos Posts</h1>
   
   {{ content }}
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
+      <li>
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}"><img src="assets/{{ post.image }}" alt=""></a>
+        {% endif %}
+
+        <div class="post-info">
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+          
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
+
+          <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+
+          <ul class="categories">
+            {% assign categories_list = post.categories %}
+            {% for category in categories_list %}
+              <li><a class="category" href="{{category|slugize}}">{{ category }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
       </li>
+
     {% endfor %}
   </ul>
 

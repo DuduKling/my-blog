@@ -1,8 +1,8 @@
 lang: pt-br
-title: I'm Not That Creative Blog
+title: Dudu's Blog
 email: eduardokmesiano@gmail.com
 description: >-
-  I'm Not That Creative is my test blog, to learn Jekyll.
+  This blog is my test blog, to learn Jekyll and share some info.
 baseurl: "/blog"
 url: "https://dudukling.github.io/"
 github_username:  dudukling
@@ -19,7 +19,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "post"
+      type: "posts"
     values:
       layout: "post"
       author: "Eduardo Kling Mesiano"
