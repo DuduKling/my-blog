@@ -16,15 +16,18 @@ layout: default
         <a href="{{ post.url | relative_url }}"><img src="assets/{{ post.image }}" alt=""></a>
         {% endif %}
 
-        <div class="post-info">
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
+        <div class="post-info-container">
+          <a href="{{ post.url | relative_url }}" class="post-info">
+            <span class="post-link">{{ post.title | escape }}</span>
+            
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            
+            <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
 
-          <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+            <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+          </a>
 
-          <ul class="categories">
+          <ul class="post-categories">
             {% assign categories_list = post.categories %}
             {% for category in categories_list %}
               <li><a class="category" href="{{category|slugize}}">{{ category }}</a></li>
@@ -36,7 +39,5 @@ layout: default
 
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+  
 </div>

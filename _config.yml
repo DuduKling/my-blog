@@ -2,10 +2,10 @@ lang: pt-br
 title: Dudu's Blog
 email: eduardokmesiano@gmail.com
 description: >-
-  This blog is my test blog, to learn Jekyll and share some info.
+  Blog de teste. Para aprender Jekyll e me motivar a começar a escrever.
 baseurl: "/blog"
 url: "https://dudukling.github.io/"
-github_username:  dudukling
+
 
 # Build settings
 markdown: kramdown
