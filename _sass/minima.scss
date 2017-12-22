@@ -268,7 +268,7 @@ body {
 
   > li {
     margin-bottom: 30px;
-    min-height: 200px;
+    // min-height: 200px;
     
     font-family: $font1;
 
@@ -423,7 +423,33 @@ body {
 
 
 
+/** Categories **/
+.categories {
+  font-family: $font1;
 
+  > .cat-group {
+    margin-bottom: 50px;
+    
+    > .cat-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: $verde;
+      margin-bottom: 10px;
+    }
+
+    > .cat-item {
+      display: block;
+      color: $preto;
+      text-decoration: none;
+      margin-bottom: 5px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $verde;
+      }
+    }
+  }
+}
 
 
 

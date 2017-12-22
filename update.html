@@ -1,19 +1,17 @@
 ---
-layout: default
+layout: page
+permalink: /category/update
+title: "Categoria: Update"
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Últimos Posts</h1>
-  
-  {{ content }}
-
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.update %}
 
       <li>
         {% if post.image %}
-        <a href="{{ post.url | relative_url }}"><img src="assets/{{ post.image }}" alt=""></a>
+        <a href="{{ post.url | relative_url }}"><img src="{{ '/assets/' | prepend: site.baseurl }}{{ post.image }}" alt=""></a>
         {% endif %}
 
         <div class="post-info-container">
@@ -30,7 +28,7 @@ layout: default
           <ul class="post-categories">
             {% assign categories_list = post.categories %}
             {% for category in categories_list %}
-              <li><a class="category" href="category/{{category|slugize}}">{{ category }}</a></li>
+              <li><a class="category" href="{{ '/category/' | prepend: site.baseurl }}{{category}}">{{ category }}</a></li>
             {% endfor %}
           </ul>
         </div>
