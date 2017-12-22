@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="page">
 
-  <header class="post-header">
+  <header class="page-header">
     {% if page.layout == 'category' %}
-      <h1 class="page-heading -cat">{{ page.title | escape }}</h1>
+      <h1 class="page-heading-cat">{{ page.title | escape }}</h1>
+      <a href="{{ '/categories' | prepend: site.baseurl }}">Todas as categorias ></a>
     {% else %}
       <h1 class="page-heading">{{ page.title | escape }}</h1>
     {% endif %}

@@ -2,38 +2,33 @@
 layout: page
 ---
 
-<div class="home">
+<ul class="post-list">
+  {% for post in site.categories[page.category] %}
+    <li>
+      {% if post.image %}
+      <a href="{{ post.url | relative_url }}"><img src="{{ '/assets/' | prepend: site.baseurl }}{{ post.image }}" alt=""></a>
+      {% endif %}
 
-  <ul class="post-list">
-    
-    {% for post in site.categories[page.category] %}
-      <li>
-        {% if post.image %}
-        <a href="{{ post.url | relative_url }}"><img src="{{ '/assets/' | prepend: site.baseurl }}{{ post.image }}" alt=""></a>
-        {% endif %}
+      <div class="post-info-container">
+        <a href="{{ post.url | relative_url }}" class="post-info">
+          <span class="post-link">{{ post.title | escape }}</span>
+          
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          
+          <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
 
-        <div class="post-info-container">
-          <a href="{{ post.url | relative_url }}" class="post-info">
-            <span class="post-link">{{ post.title | escape }}</span>
-            
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            
-            <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
+          <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+        </a>
 
-            <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
-          </a>
+        <ul class="post-categories">
+          {% assign categories_list = post.categories %}
+          {% for category in categories_list %}
+            <li><a class="category" href="{{ '/category/' | prepend: site.baseurl }}{{category}}">{{ category }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
 
-          <ul class="post-categories">
-            {% assign categories_list = post.categories %}
-            {% for category in categories_list %}
-              <li><a class="category" href="{{ '/category/' | prepend: site.baseurl }}{{category}}">{{ category }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </li>
-
-    {% endfor %}
-  </ul>
+    </li>
+  {% endfor %}
+</ul>
   
-</div>
