@@ -8,7 +8,7 @@ layout: default
   
   {{ content }}
 
-  <ul class="post-list">
+  <ul class="postList-list">
     {% for post in site.posts %}
 
       <li>
@@ -16,18 +16,16 @@ layout: default
         <a href="{{ post.url | relative_url }}"><img src="assets/{{ post.image }}" alt=""></a>
         {% endif %}
 
-        <div class="post-info-container">
-          <a href="{{ post.url | relative_url }}" class="post-info">
-            <span class="post-link">{{ post.title | escape }}</span>
-            
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            
-            <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
+        <div class="postList-info-container">
+          <a href="{{ post.url | relative_url }}" class="postList-info">
+            <span class="postList-link">{{ post.title | escape }}</span>
+                       
+            <span class="postList-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
 
-            <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+            <span class="postList-excerpt">{{ post.excerpt | strip_html }}</span>
           </a>
 
-          <ul class="post-categories">
+          <ul class="postList-categories">
             {% assign categories_list = post.categories %}
             {% for category in categories_list %}
               <li><a class="category" href="category/{{category|slugize}}">{{ category }}</a></li>
