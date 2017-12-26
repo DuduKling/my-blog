@@ -4,6 +4,7 @@ layout: default
 
 <style type="text/css" media="screen">
   .container {
+    font-family: "Varela Round", sans-serif;
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
@@ -14,11 +15,23 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  a {
+    color: #2CAD88;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  a:hover {
+    color: #1F2421;
+    text-decoration: underline;
+  }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Página não encontrada :(</strong></p>
+  <p>A página solicitada não pôde ser encontrada..</p>
+  <br>
+  <br>
+  <a href="{{ "/" | relative_url }}">Clique aqui</a> para voltar para a página incicial.
 </div>
