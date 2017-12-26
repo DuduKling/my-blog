@@ -3,53 +3,10 @@
 $font1: "Montserrat", sans-serif;
 $font2: "Varela Round", sans-serif;
 
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-
-$spacing-unit:     30px !default;
-
 $verde: #2CAD88;
 $azul: 	#254460;
 $cinza: #f8f8f8;
 $preto: #1F2421;
-
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
-
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-
-// Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
-
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
-
-
-
-
-
 
 
 * {
@@ -85,9 +42,9 @@ body {
   height: 100%;
   display: block;
   color: $cinza;
-  @include relative-font-size(1.625);
+  font-size: 26px;
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
 	float: left;
@@ -107,7 +64,7 @@ body {
 }
 
 .site-nav {
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: 54px;
   height: 54px;
 
   > .trigger {
@@ -156,66 +113,6 @@ body {
   .menu-icon {
     display: none;
   }
-
-  @include media-query($on-palm) {
-		height: auto;
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-    
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-		}
-		
-		.page-link {
-			margin-left: 0;
-			border-bottom: 1px solid $verde;
-      padding: 5px 10px;
-      color: $preto;
-			
-			&:after {
-				content: none;
-			}
-
-			&:last-child {
-				border-bottom: none;
-			}
-		}
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $preto;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-  }
 }
 
 
@@ -256,7 +153,7 @@ body {
 }
 
 .page-content {
-	padding: $spacing-unit 0;
+	padding: 30px 0;
 	margin-top: 54px;
   background-color: $cinza;
   padding-bottom: 260px;
@@ -362,7 +259,7 @@ body {
 }
 
 .postList-meta {
-  font-size: $small-font-size;
+  font-size: 14px;
   color: darken($cinza, 60%);
 }
 
@@ -496,10 +393,6 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     // line-height: 1;
-  
-    @include media-query($on-laptop) {
-      @include relative-font-size(2.25);
-    }
   }  
 
   > .post-meta {
@@ -529,7 +422,7 @@ body {
     }
 
     > figcaption {
-      font-size: $small-font-size;
+      font-size: 14px;
     }
 
     > pre {
@@ -605,30 +498,18 @@ body {
     font-size: 32px;
     color: $verde;
     margin-bottom: 15px;
-
-    @include media-query($on-laptop) {
-      font-size: 28px;
-    }
   }
 
   h3 {
     font-size: 26px;
     color: $verde;
     margin-bottom: 15px;
-
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
   }
 
   h4 {
     font-size: 20px;
     color: $verde;
     margin-bottom: 15px;
-
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
   }
 
   table {
@@ -657,182 +538,105 @@ body {
 }
 
 
-
-
-
 /** Wrapper **/
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: 785px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: 30px;
+  padding-left: 30px;
   // @extend %clearfix;
+}
 
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+
+/** Responsive **/
+@media only screen and (max-width: 800px) {
+  .post-header {
+    font-family: 36px;
+  }
+
+  .post-content h2 {
+    font-size: 28px;
+  }
+
+  .post-content h3 {
+    font-size: 22px;
+  }
+
+  .post-content h4 {
+    font-size: 18px;
+  }
+
+  .wrapper {
+    max-width: 770px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .site-nav {
+		height: auto;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: $cinza;
+    border: 1px solid darken($cinza, 20%);
+    border-radius: 5px;
+    text-align: right;
+    
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+		}
+		
+		.page-link {
+			margin-left: 0;
+			border-bottom: 1px solid $verde;
+      padding: 5px 10px;
+      color: $preto;
+			
+			&:after {
+				content: none;
+			}
+
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $preto;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
   }
 }
 
 
-
-
-
-
-
- 
- 
-//  /**
-//   * Basic styling
-//   */
-//  body {
-//    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-//    color: $text-color;
-//    background-color: $background-color;
-//    -webkit-text-size-adjust: 100%;
-//    -webkit-font-feature-settings: "kern" 1;
-//       -moz-font-feature-settings: "kern" 1;
-//         -o-font-feature-settings: "kern" 1;
-//            font-feature-settings: "kern" 1;
-//    font-kerning: normal;
-//  }
- 
- 
- 
- /**
-  * Set `margin-bottom` to maintain vertical rhythm
-  */
-//  h1, h2, h3, h4, h5, h6,
-//  p, blockquote, pre,
-//  ul, ol, dl, figure,
-//  %vertical-rhythm {
-//    margin-bottom: $spacing-unit / 2;
-//  }
- 
- 
- 
-//  /**
-//   * Images
-//   */
-//  img {
-//    max-width: 100%;
-//    vertical-align: middle;
-//  }
- 
- 
- 
- /**
-  * Figures
-  */
-
- 
- 
- 
-//  /**
-//   * Lists
-//   */
-//  ul, ol {
-//    margin-left: $spacing-unit;
-//  }
- 
-//  li {
-//    > ul,
-//    > ol {
-//      margin-bottom: 0;
-//    }
-//  }
- 
- 
- 
- /**
-  * Headings
-  */
-//  h1, h2, h3, h4, h5, h6 {
-//    font-weight: $base-font-weight;
-//  }
- 
- 
- 
- /** Links **/
- 
- 
-//  a {
-//    color: $preto;
-//    text-decoration: none;
- 
-//    &:visited {
-//      color: darken($preto, 15%);
-//    }
- 
-//    &:hover {
-//      color: $verde;
-//      text-decoration: underline;
-//    }
- 
-//    .social-media-list &:hover {
-//      text-decoration: none;
- 
-//      .username {
-//        text-decoration: underline;
-//      }
-//    }
-//  }
- 
- 
- /**
-  * Blockquotes
-  */
-
- 
- 
- 
- /**
-  * Code formatting
-  */
-
- 
- 
- 
-
- 
- 
-//  /**
-//   * Clearfix
-//   */
-//  %clearfix:after {
-//    content: "";
-//    display: table;
-//    clear: both;
-//  }
- 
- 
- 
-//  /**
-//   * Icons
-//   */
-//  .icon > svg {
-//    display: inline-block;
-//    vertical-align: middle;
- 
-//    path {
-//      fill: $grey-color;
-//    }
-//  }
- 
-//  .social-media-list {
-//    .icon {
-//      padding-right: 5px;
-//    }
- 
-//    li + li {
-//      padding-top: 5px;
-//    }
-//  }
- 
 
 
 
