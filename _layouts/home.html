@@ -19,7 +19,7 @@ layout: default
         <div class="postList-info-container">
           <a href="{{ post.url | relative_url }}" class="postList-info">
             <span class="postList-link">{{ post.title | escape }}</span>
-                       
+            
             <span class="postList-meta">{{ post.date | date: "%d/%m/%Y" }} {% if post.time-to-read %} | {{ post.time-to-read }} min {% endif %}</span>
 
             <span class="postList-excerpt">{{ post.excerpt | strip_html }}</span>
