@@ -6,6 +6,9 @@ date: 2017-12-11 23:13:37 -0200
 
 Este post é um teste de post com markdown, para estilizar os elementos possíveis. Vai ficar como um draft..
 
+Futuro: Paginação/Barra de Pesquisa
+
+<br>------------------------------------------------------------------------------------------------------------------------<br>
 
 ## Headings:
 

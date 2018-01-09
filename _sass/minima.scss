@@ -441,6 +441,10 @@ label[for="nav-trigger"] {
     }
   }
 
+  > .postList-list {
+    margin-left: 0px;
+  }
+
   a {
     color: $verde;
     text-decoration: none;
@@ -450,6 +454,14 @@ label[for="nav-trigger"] {
       color: $preto;
       text-decoration: underline;
     }
+  }
+
+  .postList-info:hover {
+    text-decoration: none;
+  }
+
+  .postList-categories > li > .category {
+    text-decoration: none;
   }
 
   del:hover {
