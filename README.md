@@ -1,38 +1,28 @@
-# dudukling.github.io
+# dudukling.github.io/blog/
 This is **my** Blog!
 
 Version: *Alpha*
 
+# Tech
+- [Ruby](https://www.ruby-lang.org): Open source programming language.
+- [Jekyll](http://sass-lang.com/): Blog-aware static site generator. To transform plain text into static websites and blogs.
 
+## Installation
+[Ruby](https://www.ruby-lang.org/en/downloads/) and [Jekyll](https://jekyllrb.com/docs/installation/).
 
-# Tech Used
-
-- [Ruby](https://www.ruby-lang.org) = Open source programming language.
-- [Jekyll](http://sass-lang.com/) = Blog-aware static site generator. To transform plain text into static websites and blogs.
-
-
-
-# Use the Tech
-
-Install [Ruby](https://www.ruby-lang.org/en/downloads/).
-
-**In ruby command prompt**
-
-Go to project folder, and install jekyll:
+May need to go to project folder and run:
+```console
+> gem install jekyll
 ```
-gem install jekyll
+```console
+> bundle install
+```
+```console
+> bundle update
 ```
 
-Start Server with:
-```
-jekyll serve
-```
-
-Build with:
-```
-jekyll build
-```
-Or
-```
-jekyll build --source <source_path> --destination <destination_path>
+## Usage
+Start server with:
+```console
+> bundle exec jekyll serve
 ```
