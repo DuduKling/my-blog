@@ -1,4 +1,11 @@
-# Website
+# blog
+
+This is Dudu's Blog!
+
+Version: *Alpha*
+
+
+# Tech
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
