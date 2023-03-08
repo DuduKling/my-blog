@@ -20,6 +20,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'dudukling', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
+  deploymentBranch: 'master',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
