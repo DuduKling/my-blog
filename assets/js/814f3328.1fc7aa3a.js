@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Git change old commit messages","permalink":"/blog/git-change-old-commit-messages"},{"title":"Git Remove from History","permalink":"/blog/git-remove-from-history"}]}')}}]);
