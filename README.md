@@ -1,4 +1,4 @@
-# blog
+# my-blog
 
 This is Dudu's Blog!
 
