@@ -77,6 +77,11 @@ const config = {
             position: 'left'
           },
           {
+            to: '/docs/home',
+            label: 'Docs',
+            position: 'left'
+          },
+          {
             to: '/about',
             label: 'About',
             position: 'left'
@@ -84,7 +89,7 @@ const config = {
           {
             href: 'https://dudukling.github.io',
             label: 'Site',
-            position: 'left'
+            position: 'right'
           },
           {
             href: 'https://github.com/DuduKling/blog',

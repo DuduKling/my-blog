@@ -1,7 +1,5 @@
 ---
-slug: git-remove-from-history
 title: Git Remove from History
-authors: [dudu]
 tags: [git]
 ---
 

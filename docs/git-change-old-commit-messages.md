@@ -1,7 +1,5 @@
 ---
-slug: git-change-old-commit-messages
 title: Git change old commit messages
-authors: [dudu]
 tags: [git]
 ---
 
