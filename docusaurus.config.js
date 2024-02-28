@@ -94,6 +94,11 @@ const config = {
             position: 'left'
           },
           {
+            to: '/books',
+            label: 'Books',
+            position: 'left'
+          },
+          {
             href: 'https://dudukling.github.io',
             label: 'Site',
             position: 'right'
@@ -118,6 +123,14 @@ const config = {
               {
                 label: 'Docs',
                 to: '/docs/home',
+              },
+              {
+                label: 'About',
+                to: '/about',
+              },
+              {
+                label: 'Books',
+                to: '/books',
               },
             ]
           },
