@@ -9,6 +9,8 @@ Version: *Alpha*
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+Node version `20.17.0`.
+
 ### Installation
 
 ```bash
