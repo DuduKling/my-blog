@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8160],{6358:e=>{e.exports=JSON.parse('{"label":"cyber","permalink":"/my-blog/blog/tags/cyber","allTagsPath":"/my-blog/blog/tags","count":1,"unlisted":false}')}}]);

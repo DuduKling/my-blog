@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dudukling.github.io/my-blog/blog</id>
     <title>Dudu's Blog Blog</title>
-    <updated>2024-02-27T00:00:00.000Z</updated>
+    <updated>2025-06-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dudukling.github.io/my-blog/blog"/>
     <subtitle>Dudu's Blog Blog</subtitle>
     <icon>https://dudukling.github.io/my-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CompTIA Security+ Certification]]></title>
+        <id>https://dudukling.github.io/my-blog/blog/comptia-security-plus-certification</id>
+        <link href="https://dudukling.github.io/my-blog/blog/comptia-security-plus-certification"/>
+        <updated>2025-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[About]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about">About<a href="https://dudukling.github.io/my-blog/blog/comptia-security-plus-certification#about" class="hash-link" aria-label="Direct link to About" title="Direct link to About">​</a></h2>
+<p>Certification <code>CompTIA Security+ Certification</code>, also known as <code>SY0-701</code>.</p>
+<p>The definition of certification is as follow:</p>
+<blockquote>
+<p>CompTIA Security+ is the premier global certification that establishes the essential skills required for core security functions and a career in IT security.</p>
+<p>It showcases professionals' capabilities in securing networks, applications, and devices, ensuring data integrity, confidentiality, and availability.</p>
+<p>CompTIA Security+ focuses on practical, hands-on skills to tackle real-world challenges.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="https://dudukling.github.io/my-blog/blog/comptia-security-plus-certification#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h2>
+<p>Some materials used in the study for the certification:</p>
+<ul>
+<li>Course: <a href="https://www.udemy.com/course/securityplus" target="_blank" rel="noopener noreferrer">Udemy - CompTIA Security+ (SY0-701) Complete Course</a>.</li>
+<li>Simulations: <a href="https://www.udemy.com/course/comptia-security-sy0-701-practice-exams" target="_blank" rel="noopener noreferrer">Udemy - CompTIA Security+ (SY0-701) Practice Exams Set 1</a>.</li>
+<li>Also created some <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener noreferrer">Anki</a> Cards to help remembering all the names an acronyms.</li>
+</ul>
+<p>See my certification badge <a href="https://www.credly.com/badges/4a19dd33-9263-47b1-8682-678cae0f119f/public_url" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mind-map">Mind Map<a href="https://dudukling.github.io/my-blog/blog/comptia-security-plus-certification#mind-map" class="hash-link" aria-label="Direct link to Mind Map" title="Direct link to Mind Map">​</a></h2>
+<p>Just a part of the "Mind Map" I created on my journey to get the certification.</p>
+<p>General Security Concepts</p>
+<p><img decoding="async" loading="lazy" alt="Mind Map - General Security Concepts 1" src="https://dudukling.github.io/my-blog/assets/images/sec-1-25ed0f05c4bee7e167393936b80243a2.png" width="5537" height="3690" class="img_ev3q"></p>
+<p>Threats, Vulnerabilities and mitigations</p>
+<p><img decoding="async" loading="lazy" alt="Mind Map - Threats, Vulnerabilities and mitigations 1" src="https://dudukling.github.io/my-blog/assets/images/sec-2-e000fbea6609436cf03bf1ea9294b32e.png" width="5479" height="5262" class="img_ev3q"></p>
+<p>Security Architecture</p>
+<p><img decoding="async" loading="lazy" alt="Mind Map - Security Architecture 1" src="https://dudukling.github.io/my-blog/assets/images/sec-3-69eb716887bd6b3678d2ce23971792d4.png" width="5663" height="4840" class="img_ev3q"></p>
+<p>Security Operations</p>
+<p><img decoding="async" loading="lazy" alt="Mind Map - Security Operations 1" src="https://dudukling.github.io/my-blog/assets/images/sec-4-825812aee04f1c74994dca468ddcf79e.png" width="6567" height="3232" class="img_ev3q"></p>
+<p>Security Program Management and oversight</p>
+<p><img decoding="async" loading="lazy" alt="Mind Map - Security Program Management and oversight 1" src="https://dudukling.github.io/my-blog/assets/images/sec-5-5f9bc178e1b1a4e9ebf3f540517e2b49.png" width="5551" height="2747" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Dudu Kling</name>
+            <uri>https://github.com/DuduKling</uri>
+        </author>
+        <category label="security" term="security"/>
+        <category label="cyber" term="cyber"/>
+        <category label="certification" term="certification"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[About Certifications]]></title>
         <id>https://dudukling.github.io/my-blog/blog/about-certifications</id>
@@ -32,15 +74,25 @@
         <id>https://dudukling.github.io/my-blog/blog/devops-certification</id>
         <link href="https://dudukling.github.io/my-blog/blog/devops-certification"/>
         <updated>2024-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Just a part of the "Mind Map" I created on my journey to get the EXIN DevOps Professional, also known as DEVOPSP, certification.]]></summary>
-        <content type="html"><![CDATA[<p>Just a part of the "Mind Map" I created on my journey to get the <code>EXIN DevOps Professional</code>, also known as <code>DEVOPSP</code>, certification.</p>
-<p>See my certification badge <a href="https://app.exeed.pro/holder/badge/168853" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-the-certification">About the certification<a href="https://dudukling.github.io/my-blog/blog/devops-certification#about-the-certification" class="hash-link" aria-label="Direct link to About the certification" title="Direct link to About the certification">​</a></h2>
+        <summary type="html"><![CDATA[About]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about">About<a href="https://dudukling.github.io/my-blog/blog/devops-certification#about" class="hash-link" aria-label="Direct link to About" title="Direct link to About">​</a></h2>
+<p>Certification <code>EXIN DevOps Professional</code>, also known as <code>DEVOPSP</code>.</p>
 <p>The definition of certification is as follow:</p>
 <blockquote>
-<p>This EXIN DevOps Professional certification has been designed to test IT professionals on their background knowledge and understanding of essential DevOps practices. Created as a stepping-stone to the EXIN DevOps Master certification, this certification looks at the Three Ways, the good habits of change control, and maintaining security compliance.</p>
+<p>This EXIN DevOps Professional certification has been designed to test IT professionals on their background knowledge and understanding of essential DevOps practices.</p>
+<p>Created as a stepping-stone to the EXIN DevOps Master certification, this certification looks at the Three Ways, the good habits of change control, and maintaining security compliance.</p>
 </blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="https://dudukling.github.io/my-blog/blog/devops-certification#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h2>
+<p>This is by far the least important/relevant certification I have, but I learned a lot studying for it, so for me it's worth it.</p>
+<p>Some materials used in the study for the certification:</p>
+<ul>
+<li>Book: <code>DevOps Handbook</code>.</li>
+<li>Course: <a href="https://academy.estabil.is/courses/devops-professional-online" target="_blank" rel="noopener noreferrer">Estabilis Academy - DevOps Professional Online</a> (pt-br).</li>
+<li>Simulations: You can find some questions to practice on the internet.</li>
+</ul>
+<p>See my certification badge <a href="https://app.exeed.pro/holder/badge/168853" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="mind-map">Mind Map<a href="https://dudukling.github.io/my-blog/blog/devops-certification#mind-map" class="hash-link" aria-label="Direct link to Mind Map" title="Direct link to Mind Map">​</a></h2>
+<p>Just a part of the "Mind Map" I created on my journey to get the certification.</p>
 <p>Basic Concepts &amp; Good Quotes</p>
 <p><img decoding="async" loading="lazy" alt="Mind Map - Basic Concepts &amp;amp; Good Quotes" src="https://dudukling.github.io/my-blog/assets/images/devops-1-8fe67940d64ddeaba1dde6c99b967714.png" width="9130" height="4169" class="img_ev3q"></p>
 <p>First Way</p>
@@ -67,15 +119,25 @@
         <id>https://dudukling.github.io/my-blog/blog/psm-certification</id>
         <link href="https://dudukling.github.io/my-blog/blog/psm-certification"/>
         <updated>2023-01-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Just a part of the "Mind Map" I created on my journey to get the Professional Scrum Master™ I, also known as PSM I, certification.]]></summary>
-        <content type="html"><![CDATA[<p>Just a part of the "Mind Map" I created on my journey to get the <code>Professional Scrum Master™ I</code>, also known as <code>PSM I</code>, certification.</p>
-<p>See my certification badge <a href="https://www.credly.com/badges/572249e3-f991-4198-948d-3c3d61b06c8c/public_url" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-the-certification">About the certification<a href="https://dudukling.github.io/my-blog/blog/psm-certification#about-the-certification" class="hash-link" aria-label="Direct link to About the certification" title="Direct link to About the certification">​</a></h2>
+        <summary type="html"><![CDATA[About]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about">About<a href="https://dudukling.github.io/my-blog/blog/psm-certification#about" class="hash-link" aria-label="Direct link to About" title="Direct link to About">​</a></h2>
+<p>Certification <code>Professional Scrum Master™ I</code>, also known as <code>PSM I</code>.</p>
 <p>The definition of certification is as follow:</p>
 <blockquote>
 <p>The Professional Scrum Master™ I (PSM I) certification validates your knowledge of the Scrum framework, the Scrum Master accountabilities and how to apply Scrum.</p>
 </blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="https://dudukling.github.io/my-blog/blog/psm-certification#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h2>
+<p>Some materials used in the study for the certification:</p>
+<ul>
+<li>Primary resource: <code>Scrum Guide</code>.</li>
+<li>Primary Course: <a href="https://www.udemy.com/course/formacao-total-em-scrum" target="_blank" rel="noopener noreferrer">Udemy - Formação total em Scrum</a> (pt-br).</li>
+<li>Other Course: <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Alura</a>'s Scrum courses in Agile training (pt-br).</li>
+<li>Simulations: <a href="https://www.udemy.com/course/simulados-para-certificacoes-scrum-master" target="_blank" rel="noopener noreferrer">Udemy - Simulados para certificações Scrum Master</a> (pt-br).</li>
+<li>Other resources: Read a good part of the articles on the certification website as study recommendations, the "Scrum Master Learning Path".</li>
+</ul>
+<p>See my certification badge <a href="https://www.credly.com/badges/572249e3-f991-4198-948d-3c3d61b06c8c/public_url" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="mind-map">Mind Map<a href="https://dudukling.github.io/my-blog/blog/psm-certification#mind-map" class="hash-link" aria-label="Direct link to Mind Map" title="Direct link to Mind Map">​</a></h2>
+<p>Just a part of the "Mind Map" I created on my journey to get the certification.</p>
 <p>Manifesto</p>
 <p><img decoding="async" loading="lazy" alt="Mind Map - Manifesto" src="https://dudukling.github.io/my-blog/assets/images/psm-1-22b998380cecd4a55f7c93e2b6daa091.png" width="14827" height="7865" class="img_ev3q"></p>
 <p>Scrum part 1</p>
@@ -96,15 +158,25 @@
         <id>https://dudukling.github.io/my-blog/blog/aws-ccp-certification</id>
         <link href="https://dudukling.github.io/my-blog/blog/aws-ccp-certification"/>
         <updated>2021-09-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Just a part of the "Mind Map" I created on my journey to get the AWS Certified Cloud Practitioner, also known as CCP, certification.]]></summary>
-        <content type="html"><![CDATA[<p>Just a part of the "Mind Map" I created on my journey to get the <code>AWS Certified Cloud Practitioner</code>, also known as <code>CCP</code>, certification.</p>
-<p>See my certification badge <a href="https://www.credly.com/badges/01ae0295-4d60-4276-b6c2-d2f17abb84f2/public_url" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-the-certification">About the certification<a href="https://dudukling.github.io/my-blog/blog/aws-ccp-certification#about-the-certification" class="hash-link" aria-label="Direct link to About the certification" title="Direct link to About the certification">​</a></h2>
+        <summary type="html"><![CDATA[About]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="about">About<a href="https://dudukling.github.io/my-blog/blog/aws-ccp-certification#about" class="hash-link" aria-label="Direct link to About" title="Direct link to About">​</a></h2>
+<p>Certification <code>Professional Scrum Master™ I</code>, also known as <code>PSM I</code>.</p>
 <p>The definition of certification is as follow:</p>
 <blockquote>
-<p>The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology.  This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.</p>
+<p>The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology.</p>
+<p>This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.</p>
 </blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="https://dudukling.github.io/my-blog/blog/aws-ccp-certification#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h2>
+<p>Some materials used in the study for the certification:</p>
+<ul>
+<li>Primary resource: <code>AWS Web Documentation</code>.</li>
+<li>Course: <a href="https://www.udemy.com/course/aws-certified-cloud-practitioner-new" target="_blank" rel="noopener noreferrer">Udemy - AWS Certified Cloud Practitioner</a>.</li>
+<li>Simulations: There are some books on the internet with lots of questions to practice.</li>
+<li>Also created some <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener noreferrer">Anki</a> Cards to help remembering all the names an acronyms.</li>
+</ul>
+<p>See my certification badge <a href="https://www.credly.com/badges/01ae0295-4d60-4276-b6c2-d2f17abb84f2/public_url" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="mind-map">Mind Map<a href="https://dudukling.github.io/my-blog/blog/aws-ccp-certification#mind-map" class="hash-link" aria-label="Direct link to Mind Map" title="Direct link to Mind Map">​</a></h2>
+<p>Just a part of the "Mind Map" I created on my journey to get the certification.</p>
 <p>Billing and Pricing</p>
 <p><img decoding="async" loading="lazy" alt="Mind Map - Billing and Pricing" src="https://dudukling.github.io/my-blog/assets/images/aws-1-5971c5468f42154f999333edf0351b58.png" width="11308" height="6182" class="img_ev3q"></p>
 <p>Cloud Concepts AND Security and Compliance</p>
